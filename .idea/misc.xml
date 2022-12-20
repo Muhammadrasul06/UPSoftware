@@ -3,15 +3,31 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="..\:/Users/User/AndroidStudioProjects/UPSoftware/app/src/main/res/drawable-ldpi/background_btn.xml" value="0.199" />
+        <entry key="..\:/Users/User/AndroidStudioProjects/UPSoftware/app/src/main/res/drawable-ldpi/ic_down.xml" value="0.199" />
+        <entry key="..\:/Users/User/AndroidStudioProjects/UPSoftware/app/src/main/res/drawable-ldpi/spinner_style.xml" value="0.199" />
+        <entry key="..\:/Users/User/AndroidStudioProjects/UPSoftware/app/src/main/res/drawable/background_edittext.xml" value="0.1735" />
+        <entry key="..\:/Users/User/AndroidStudioProjects/UPSoftware/app/src/main/res/drawable/bgr.xml" value="0.1725" />
+        <entry key="..\:/Users/User/AndroidStudioProjects/UPSoftware/app/src/main/res/drawable/bottom_background.xml" value="0.1735" />
         <entry key="..\:/Users/User/AndroidStudioProjects/UPSoftware/app/src/main/res/drawable/splash_screen_draweble.xml" value="0.142" />
         <entry key="..\:/Users/User/AndroidStudioProjects/UPSoftware/app/src/main/res/font/font.xml" value="0.26296296296296295" />
+        <entry key="..\:/Users/User/AndroidStudioProjects/UPSoftware/app/src/main/res/layout/activity_login.xml" value="0.22393162393162394" />
         <entry key="..\:/Users/User/AndroidStudioProjects/UPSoftware/app/src/main/res/layout/activity_main.xml" value="0.22393162393162394" />
-        <entry key="..\:/Users/User/AndroidStudioProjects/UPSoftware/app/src/main/res/layout/activity_main_screen.xml" value="0.22393162393162394" />
+        <entry key="..\:/Users/User/AndroidStudioProjects/UPSoftware/app/src/main/res/layout/activity_main_screen.xml" value="0.2210970464135021" />
         <entry key="..\:/Users/User/AndroidStudioProjects/UPSoftware/app/src/main/res/layout/activity_mainscreen.xml" value="0.22393162393162394" />
         <entry key="..\:/Users/User/AndroidStudioProjects/UPSoftware/app/src/main/res/layout/activity_on_bording.xml" value="0.22393162393162394" />
+        <entry key="..\:/Users/User/AndroidStudioProjects/UPSoftware/app/src/main/res/layout/activity_sign_in.xml" value="0.22119037568594344" />
+        <entry key="..\:/Users/User/AndroidStudioProjects/UPSoftware/app/src/main/res/layout/activity_sign_up.xml" value="0.22402736212056434" />
+        <entry key="..\:/Users/User/AndroidStudioProjects/UPSoftware/app/src/main/res/layout/activity_ui_mode.xml" value="0.22119037568594344" />
+        <entry key="..\:/Users/User/AndroidStudioProjects/UPSoftware/app/src/main/res/layout/activity_view_pager.xml" value="0.22402736212056434" />
         <entry key="..\:/Users/User/AndroidStudioProjects/UPSoftware/app/src/main/res/layout/fragment_first_screen.xml" value="0.22393162393162394" />
+        <entry key="..\:/Users/User/AndroidStudioProjects/UPSoftware/app/src/main/res/layout/fragment_home.xml" value="0.2231722958529286" />
+        <entry key="..\:/Users/User/AndroidStudioProjects/UPSoftware/app/src/main/res/layout/fragment_sale.xml" value="0.22402736212056434" />
         <entry key="..\:/Users/User/AndroidStudioProjects/UPSoftware/app/src/main/res/layout/fragment_second_screen.xml" value="0.22393162393162394" />
+        <entry key="..\:/Users/User/AndroidStudioProjects/UPSoftware/app/src/main/res/layout/fragment_settings.xml" value="0.22402736212056434" />
         <entry key="..\:/Users/User/AndroidStudioProjects/UPSoftware/app/src/main/res/layout/fragment_third_screen.xml" value="0.2123931623931624" />
+        <entry key="..\:/Users/User/AndroidStudioProjects/UPSoftware/app/src/main/res/menu/bottom_menu.xml" value="0.22402736212056434" />
+        <entry key="..\:/Users/User/AndroidStudioProjects/UPSoftware/app/src/main/res/menu/settings_menu.xml" value="0.22402736212056434" />
       </map>
     </option>
   </component>

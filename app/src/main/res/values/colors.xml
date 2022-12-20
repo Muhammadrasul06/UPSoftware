@@ -8,6 +8,11 @@
     <color name="black">#FF000000</color>
     <color name="white">#FFFFFFFF</color>
 
+    //background colors
+    <color name="blue">#0C93D1</color>
+    <color name="wiolet">#6672FF</color>
+    <color name="green">#088A14</color>
+
     //onboarding colors
     <color name="background">#F0F4F3</color>
     <color name="buttontext">#50C2C9</color>

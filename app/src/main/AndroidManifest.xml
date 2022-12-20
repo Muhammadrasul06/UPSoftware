@@ -14,17 +14,28 @@
         android:theme="@style/Theme.UPSoftware"
         tools:targetApi="31">
         <activity
-            android:name=".MainScreenActivity"
-            android:exported="false" />
+            android:name=".activity.UiModeActivity"
+            android:exported="false"
+          />
+
         <activity
-            android:name=".mainscreen"
-            android:exported="false" />
+            android:name=".activity.SignUpActivity"
+            android:exported="false"
+            android:theme="@style/SigningScreen" />
+
         <activity
-            android:name=".OnBordingActivity"
+            android:name=".activity.SignInActivity"
+            android:exported="false"
+            android:theme="@style/SigningScreen" />
+
+        <activity
+            android:name=".activity.MainScreenActivity"
             android:exported="false" />
+
         <activity
             android:name=".MainActivity"
-            android:exported="true">
+            android:exported="true"
+            android:theme="@style/FullScreen">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 

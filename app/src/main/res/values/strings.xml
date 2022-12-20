@@ -3,6 +3,7 @@
     <!-- TODO: Remove or change this placeholder text -->
     <string name="hello_blank_fragment">Hello blank fragment</string>
 
+
     //Headings
     <string name="heading_one">Quick &amp; Easy Payments</string>
     <string name="heading_two">Instant Notifications</string>
@@ -14,5 +15,20 @@
     <string name="desc_two">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua</string>
     <string name="desc_three">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua</string>
     <string name="desc_fourth">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua</string>
+
+    //For Signing
+    <string name="Login">Войти</string>
+    <string name="Password">Пароль</string>
+    <string name="Enter_password">Введите пароль</string>
+    <string name="Enter_Email">Введите электронную почту</string>
+    <string name="Email">Электронная почта</string>
+    <string name="Name">Имя</string>
+    <string name="LastName">Фамилия</string>
+    <string name="Enter_Name">Твой имя</string>
+    <string name="Enter_lastname">Твой фамилия</string>
+    <string name="Repeat_Password">Повтрите пароль</string>
+    <string name="Choose">Выберите</string>
+    <string name="signUp">Нет аккаунта?  <b>Зарегистрироваться</b></string>
+    <string name="login">Имееться аккаунт? <b>Войти</b></string>
 
 </resources>

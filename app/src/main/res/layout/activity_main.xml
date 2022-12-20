@@ -9,7 +9,7 @@
     <ImageView
         android:id="@+id/imageView2"
         android:layout_width="0dp"
-        android:layout_height="wrap_content"
+        android:layout_height="250dp"
         android:scaleType="fitXY"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.51"
@@ -19,49 +19,9 @@
 
 
     <LinearLayout
-        android:id="@+id/layout_text"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="24dp"
-        android:layout_marginEnd="5dp"
-        android:orientation="horizontal"
-        android:rotation="360"
-        android:rotationY="-37"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.87"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent">
-
-        <TextView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_marginTop="36dp"
-            android:fontFamily="@font/small_print"
-            android:gravity="center"
-            android:text="LooP "
-            android:textAlignment="center"
-            android:textColor="#FFFFFF"
-            android:textSize="50sp"
-            android:textStyle="bold"
-            app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintHorizontal_bias="0.497"
-            app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toTopOf="parent" />
-
-        <TextView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_marginTop="36dp"
-            android:gravity="center"
-            android:text="market"
-            android:textSize="30dp"
-            android:textStyle="bold" />
-    </LinearLayout>
-
-    <LinearLayout
         android:id="@+id/linearLayout"
         android:layout_width="match_parent"
-        android:layout_height="279dp"
+        android:layout_height="wrap_content"
         android:orientation="vertical"
         app:layout_constraintBottom_toTopOf="@+id/textView"
         app:layout_constraintEnd_toEndOf="parent"
@@ -83,6 +43,9 @@
             app:layout_constraintTop_toTopOf="parent">
 
             <com.airbnb.lottie.LottieAnimationView
+                app:lottie_rawRes="@raw/waitingloadingcheck"
+                app:lottie_autoPlay="true"
+                app:lottie_progress="@integer/material_motion_duration_medium_2"
                 android:layout_width="50dp"
                 android:layout_height="50dp" />
 
@@ -108,8 +71,12 @@
             app:layout_constraintTop_toTopOf="parent">
 
             <com.airbnb.lottie.LottieAnimationView
+                app:lottie_rawRes="@raw/waitingloadingcheck"
+                app:lottie_autoPlay="true"
+                app:lottie_progress="@integer/material_motion_duration_medium_2"
                 android:layout_width="50dp"
                 android:layout_height="50dp" />
+
 
             <TextView
                 android:layout_width="wrap_content"
@@ -133,8 +100,12 @@
             app:layout_constraintTop_toTopOf="parent">
 
             <com.airbnb.lottie.LottieAnimationView
+                app:lottie_rawRes="@raw/waitingloadingcheck"
+                app:lottie_autoPlay="true"
+                app:lottie_progress="@integer/material_motion_duration_medium_2"
                 android:layout_width="50dp"
                 android:layout_height="50dp" />
+
 
             <TextView
                 android:layout_width="wrap_content"
@@ -158,6 +129,9 @@
             app:layout_constraintTop_toTopOf="parent">
 
             <com.airbnb.lottie.LottieAnimationView
+                app:lottie_rawRes="@raw/waitingloadingcheck"
+                app:lottie_autoPlay="true"
+                app:lottie_progress="@integer/material_motion_duration_medium_2"
                 android:layout_width="50dp"
                 android:layout_height="50dp" />
 
@@ -183,6 +157,9 @@
             app:layout_constraintTop_toTopOf="parent">
 
             <com.airbnb.lottie.LottieAnimationView
+                app:lottie_rawRes="@raw/waitingloadingcheck"
+                app:lottie_autoPlay="true"
+                app:lottie_progress="@integer/material_motion_duration_medium_2"
                 android:layout_width="50dp"
                 android:layout_height="50dp" />
 
@@ -197,8 +174,20 @@
                 android:textStyle="bold" />
         </LinearLayout>
 
-
     </LinearLayout>
+
+    <com.airbnb.lottie.LottieAnimationView
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        app:layout_constraintBottom_toTopOf="@+id/textView"
+        app:lottie_autoPlay="true"
+        app:lottie_colorFilter="@color/wiolet"
+        app:lottie_loop="true"
+        app:lottie_fallbackRes="@color/black"
+        app:lottie_renderMode="automatic"
+        app:lottie_progress="@integer/material_motion_duration_medium_2"
+        app:lottie_rawRes="@raw/loading"
+        app:lottie_repeatCount="1000" />
 
     <TextView
         android:id="@+id/textView"
