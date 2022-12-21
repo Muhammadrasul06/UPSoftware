@@ -19,7 +19,7 @@ class MainActivity : AppCompatActivity() {
             intent = Intent(this, MainScreenActivity::class.java)
             startActivity(intent)
             finish()
-        },5000)
+        },4000)
 
 
 
@@ -27,5 +27,6 @@ class MainActivity : AppCompatActivity() {
         println("First commit")
         println("Mistake commit")
         println("Signing commit")
+        println("BottomAppBar commit")
     }
 }
