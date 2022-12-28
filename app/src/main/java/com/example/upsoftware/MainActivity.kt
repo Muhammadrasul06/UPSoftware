@@ -4,6 +4,7 @@ import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.os.Handler
+import android.util.Log
 import android.util.Log.println
 import com.example.upsoftware.activity.MainScreenActivity
 import com.example.upsoftware.databinding.ActivityMainBinding
@@ -28,5 +29,6 @@ class MainActivity : AppCompatActivity() {
         println("Mistake commit")
         println("Signing commit")
         println("BottomAppBar commit")
+        println("Succes bottomAppBar commit")
     }
 }

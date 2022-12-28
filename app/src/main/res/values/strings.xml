@@ -25,6 +25,7 @@
     <string name="Name">Имя</string>
     <string name="LastName">Фамилия</string>
     <string name="Enter_Name">Твой имя</string>
+    <string name="Cant_write">*Не объязательно</string>
     <string name="Enter_lastname">Твой фамилия</string>
     <string name="Repeat_Password">Повтрите пароль</string>
     <string name="Choose">Выберите</string>

@@ -30,7 +30,8 @@
 
         <activity
             android:name=".activity.MainScreenActivity"
-            android:exported="false" />
+            android:exported="false"
+            android:theme="@style/SigningScreen"/>
 
         <activity
             android:name=".MainActivity"
